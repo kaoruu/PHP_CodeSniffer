@@ -2,6 +2,8 @@
 <ruleset name="CustomZend">
  <description>A coding standard based on an early Zend Framework coding standard. Modified some configuration. Note that this standard is out of date.</description>
 
+ <rule ref="Zend" />
+
  <!-- Include some sniffs from all around the place -->
  <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
  <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
